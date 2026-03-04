@@ -4,94 +4,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Un periódico digital con las últimas noticias.">
+    <link rel="stylesheet" href="styles.css">
     <title>El Diario</title>
 </head>
 <body>
     <header>
-        <h1>El diario</h1>
-        <p>siempre de primera mano</p>
+        <h1>TecnoRed</h1>
+        <p>Articulos de actualidad sobre el mundo de la tecnología</p>
     </header>
 <!--menu_nav-->
     <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Actualidad</li>
-            <li>Deportes</li>
-            <li>Contacto</li>
+        <div class="nav-container">
+        <button class="nav-toggle">☰</button>
+        <ul class="nav-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#ultimasNoticias">Ultimas noticias</a></li>
+            <li><a href="#articulosInteres">Articulos de interes</a></li>
+            <li><a href="#formSuscripcion">Contacto</a></li>
         </ul>
     </nav>
 <!--contenido_principal-->
     <main>
+        
 <!--articulo1-->
-        <section>
+        <section id="ultimasNoticias">
             <h2>Últimas Noticias</h2>
         <article>
             <header>
                 <hgroup>
-                    <h2>Noticia 1</h2>
-                    <h3>Subtítulo de la noticia 1</h3>
+                    <h2>El mercado de la memoria RAM en 2025</h2>
+                    <h3>Crisis de oferta, precios en alza y retos estructurales</h3>
                 </hgroup>
             </header>
-            <img src="./imgs/manzana-equilibrio-734x486.jpg" alt="Imagen de la noticia 1">
+            <img src="./imgs/ram.jpg" alt="Imagen de la noticia 1">
             <figcaption>Imagen representativa de la noticia 1</figcaption>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque nec erat cursus facilisis.</p>
-            <future>
-                <p>Comentarios(4)</p>
-            </future>
-        </article>
-        </section>
-<!--articulo2-->
-        <section>
-        <article>
-            <header>
-                <hgroup>
-                    <h2>Noticia 2</h2>
-                    <h3>Subtítulo de la noticia 2</h3>
-                </hgroup>
-            </header>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+           <p>En 2025, el mercado de la memoria RAM (principalmente DRAM y DDR5) 
+                se encuentra en un punto de inflexión marcado por una crisis de suministro, subidas de precios sin precedentes
+                 y un cambio profundo en las prioridades de producción de los grandes fabricantes.</p>
+            <p>Durante la segunda mitad de 2025, los precios de los módulos de memoria han experimentado
+                 aumentos significativos a nivel global. En muchos mercados,
+                  los costes minoristas de kits de memoria han duplicado e incluso superado esos niveles en cuestión de meses,
+                   impulsados por un desequilibrio entre oferta y demanda que no se veía desde hace años.</p>
+            <p>Esta escalada también ha afectado a fabricantes y ensambladores de ordenadores,
+                 que han empezado a repercutir parte de esos aumentos en el precio final de dispositivos,
+                  desde portátiles hasta consolas y PCs de sobremesa.</p>
+            <h3>Demanda de IA y reconfiguración industrial</h3>
+            <p>Uno de los factores clave detrás de esta situación es el boom de la inteligencia artificial
+                 y los centros de datos asociados. La enorme demanda de memoria de alto rendimiento —incluyendo tipos
+                  especializados como High Bandwidth Memory (HBM)— ha llevado a los fabricantes a priorizar la producción para
+                   clientes corporativos y proveedores de infraestructura de IA, en detrimento de los segmentos tradicionales de consumo.</p>
+            <p>Este cambio estratégico ha reducido la fabricación de DRAM convencional y ha acelerado la transición hacia módulos como DDR5
+                 y HBM, que ofrecen más rendimiento pero también requieren procesos de fabricación más complejos y caros. </p>
+            <h3>¿Qué le espera al mercado?</h3>
+            <p>Aunque algunos analistas ven señales de que esta fase de precios elevados podría relajarse hacia 2026–2027 
+                cuando nuevas plantas de producción entren en operación y la transición a DDR5 se estabilice, el corto plazo
+                 sigue marcado por tensiones de oferta y demanda.</p>
             <footer>
-                <p>Comentarios</p>
+                <p>Comentarios(4)</p>
             </footer>
         </article>
         </section>
-<!--anuncio_publicitario-->
+        <!--anuncio_publicitario-->
             <aside>
                 <blockquote>
                 <img src="./imgs/coca.jpg" alt="Imagen del anuncio">
                 <figcaption>Publicidad</figcaption>
                 </blockquote>
             </aside>
+<!--articulo2-->
+        <section>
+        <article id="articulosInteres">
+            <header>
+                <hgroup>
+                    <h2>The Game Awards 2025</h2>
+                    <h3>Gran sorpresa en la gala de los Game Awards</h3>
+                </hgroup>
+            </header>
+             <img src="./imgs/tga.webp" alt="Imagen de la noticia 2">
+            <figcaption>Imagen representativa de la noticia 2</figcaption>
+             <p>The Game Awards 2025 se celebraron el 11 de diciembre en el Peacock 
+                Theater de Los Ángeles, consolidándose una vez más como el evento más importante
+                 del año para la industria de los videojuegos. Presentado por Geoff Keighley, 
+                 el espectáculo combinó premios, tráilers y anuncios exclusivos que definieron tendencias para 2026 y más allá.</p>
+            <p>La gran protagonista de la noche fue Clair Obscur: Expedition 33,
+                 un RPG  AA desarrollado por Sandfall Interactive que arrasó con nueve premios,
+                  incluyendo el codiciado Game of the Year (Juego del Año). Con este resultado, 
+                  el título no solo se llevó el máximo galardón, sino que también estableció
+                   un nuevo récord de premios en una sola gala, superando a obras como The Last of Us Part II.</p>
+            <p>Además de GOTY, Clair Obscur triunfó en categorías clave como
+                 Mejor Dirección, Mejor Narrativa, Mejor Dirección de Arte
+                  y Mejor Interpretación, destacando tanto su diseño creativo
+                   como su impacto emocional en la audiencia.</p>
+            <h3>Más triunfos y títulos destacados</h3>
+            <p>Aunque Clair Obscur dominó, la gala celebró una gran variedad de juegos y géneros:
+                <ul>
+                    <li>Hades II fue reconocido como uno de los mejores juegos de acción del año.</li>
+                    <li>Hollow Knight: Silksong triunfó como mejor juego de acción/aventura.</li>
+                    <li>Donkey Kong Bananza se alzó con el premio a mejor juego familiar.</li>
+                    <li>Umamusume: Pretty Derby se llevó el galardón a mejor juego móvil.</li>
+                    <li>Field of View fue reconocido por su diseño de audio.</li>
+                    <li>El RPG de mundo abierto Wuthering Waves obtuvo el prestigioso premio votado por los jugadores: Players’ Voice.</li>
+                </ul>
+            </p>
+            <h3>Anuncios y tráilers que marcarán 2026</h3>
+            <p>Los Game Awards no solo premian, sino que también sirven como escaparate de novedades.
+                 Este año, la audiencia pudo ver anuncios muy esperados:</p>
+            <ul>
+                <li>Nueva entrega de Star Wars: Fate of the Old Republic. </li>
+                <li>Dos nuevos títulos de Tomb Raider, incluyendo un remake del original y una nueva aventura. </li>
+                <li>Un nuevo juego en la saga Divinity por parte de Larian Studios.</li>
+                <li>Coven of the Chicken Foot, un juego de fantasía y plataformas. </li>
+            </ul>
+            <h3>Lo que quedó en el tintero</h3>
+            <p>No todos los juegos esperados estuvieron presentes: por ejemplo, CD Projekt RED confirmó que The Witcher 4 no tendría un tráiler o presencia especial durante la gala, a pesar de la expectación que generaba su nominación como título más anticipado. </p>
+            <footer>
+                <p>Comentarios</p>
+            </footer>
+        </article>
+        </section>
+
 <!--articulo3-->
         <section>
             <article>
                 <header>
                    <hgroup>
-                        <h2>Noticia 3</h2>
-                        <h3>Subtítulo de la noticia 3</h3>
+                        <h2>España impulsa la soberanía tecnológica europea con 100 millones de euros para la IA</h2>
+                        
                     </hgroup>
                 </header>
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <img src="./imgs/ia.jpg" alt="Imagen de la noticia 3">
+            <figcaption>Imagen representativa de la noticia 3</figcaption>
+                <p>Barcelona, 4 de marzo de 2026. El Gobierno de España ha anunciado una inversión de 100 millones de euros destinada a apoyar a empresas que promuevan la soberanía digital europea, especialmente en el campo de la inteligencia artificial y las tecnologías avanzadas.</p>
+                <p>El anuncio se hizo durante el Mobile World Congress (MWC) 2026, uno de los eventos tecnológicos más importantes del año, donde líderes del sector y representantes públicos se reúnen para debatir sobre innovación y competitividad global.</p>
+                <h3>Un enfoque europeo frente a la competencia global</h3>
+                <p>La iniciativa forma parte del proyecto paneuropeo IPCEI-AI (Importante Proyecto de Interés Común Europeo en Inteligencia Artificial), liderado por Alemania, que busca fortalecer el ecosistema tecnológico del continente mediante la colaboración entre sectores público y privado.</p>
+                <p>El ministro de Transformación Digital, Óscar López, destacó la importancia de una estrategia unida para que Europa compita de manera equitativa con potencias tecnológicas como Estados Unidos y China. En el evento estuvieron presentes startups y grandes empresas tecnológicas que presentaron sus proyectos e innovaciones en IA.</p>
+
                 <footer>
                     <p>Comentarios(0)</p>   
                 </footer>
             </article>
         </section>
-<!--articulo4-->
-        <section>
-            <article>
-                <header>
-                    <hgroup>
-                        <h2>Noticia 4</h2>
-                        <h3>Subtítulo de la noticia 4</h3>
-                    </hgroup>
-                </header>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <footer>
-                    <p>Comentarios(2)</p>   
-                </footer>
-            </article>
-        </section>
+        <footer>
+        <h2>Suscríbete a nuestro periódico</h2>
+
+        <form id="formSuscripcion">
+
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="confirmarEmail">Confirmar correo electrónico:</label><br>
+        <input type="email" id="confirmarEmail" name="confirmarEmail" required><br><br>
+
+        <label>
+            <input type="checkbox" id="notificaciones" name="notificaciones">
+            Deseo recibir notificaciones y promociones por correo
+        </label><br><br>
+
+        <label>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            Acepto los términos y condiciones
+        </label><br><br>
+
+        <button type="submit">Suscribirse</button>
+
+        </form>
+
+        <p id="mensaje"></p>
+        </footer>
+    <script>
+    const toggle = document.querySelector(".nav-toggle");
+    const menu = document.querySelector(".nav-menu");
+
+    toggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
+
+    document.getElementById("formSuscripcion").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const email = document.getElementById("email").value;
+        const confirmarEmail = document.getElementById("confirmarEmail").value;
+        const notificaciones = document.getElementById("notificaciones").checked;
+        const mensaje = document.getElementById("mensaje");
+
+         if (email !== confirmarEmail) {
+            mensaje.textContent = "Los correos electrónicos no coinciden.";
+            mensaje.style.color = "red";
+            return;
+         }
+
+        let textoConfirmacion = "Suscripción realizada correctamente.";
+
+        if (notificaciones) {
+            textoConfirmacion += " Recibirás notificaciones por correo.";
+        } else {
+            textoConfirmacion += " No recibirás notificaciones.";
+        }
+
+        mensaje.textContent = textoConfirmacion;
+        mensaje.style.color = "green";
+
+        document.getElementById("formSuscripcion").reset();
+    });
+    </script>
+
     </main>
 </body>
 </html>
